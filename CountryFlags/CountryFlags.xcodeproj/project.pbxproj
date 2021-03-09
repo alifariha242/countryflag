@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4349174D25F812CA004D69B3 /* GreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349174B25F812CA004D69B3 /* GreenTableViewCell.swift */; };
+		4349174E25F812CA004D69B3 /* GreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4349174C25F812CA004D69B3 /* GreenTableViewCell.xib */; };
+		4349175425F8175B004D69B3 /* BlueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349175225F8175B004D69B3 /* BlueTableViewCell.swift */; };
+		4349175525F8175B004D69B3 /* BlueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4349175325F8175B004D69B3 /* BlueTableViewCell.xib */; };
 		43E1BFDA25EED816009FA2B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1BFD925EED816009FA2B3 /* AppDelegate.swift */; };
 		43E1BFDC25EED816009FA2B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1BFDB25EED816009FA2B3 /* SceneDelegate.swift */; };
 		43E1BFDE25EED816009FA2B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1BFDD25EED816009FA2B3 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4349174B25F812CA004D69B3 /* GreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTableViewCell.swift; sourceTree = "<group>"; };
+		4349174C25F812CA004D69B3 /* GreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenTableViewCell.xib; sourceTree = "<group>"; };
+		4349175225F8175B004D69B3 /* BlueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTableViewCell.swift; sourceTree = "<group>"; };
+		4349175325F8175B004D69B3 /* BlueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueTableViewCell.xib; sourceTree = "<group>"; };
 		43E1BFD625EED816009FA2B3 /* CountryFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E1BFD925EED816009FA2B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E1BFDB25EED816009FA2B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4349174A25F8124A004D69B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4349175125F81728004D69B3 /* Blue */,
+				4349175025F81705004D69B3 /* Green */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4349175025F81705004D69B3 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				4349174C25F812CA004D69B3 /* GreenTableViewCell.xib */,
+				4349174B25F812CA004D69B3 /* GreenTableViewCell.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		4349175125F81728004D69B3 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				4349175225F8175B004D69B3 /* BlueTableViewCell.swift */,
+				4349175325F8175B004D69B3 /* BlueTableViewCell.xib */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
 		43E1BFCD25EED816009FA2B3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +91,7 @@
 		43E1BFD825EED816009FA2B3 /* CountryFlags */ = {
 			isa = PBXGroup;
 			children = (
+				4349174A25F8124A004D69B3 /* Cells */,
 				43E1BFD925EED816009FA2B3 /* AppDelegate.swift */,
 				43E1BFDB25EED816009FA2B3 /* SceneDelegate.swift */,
 				43E1BFDD25EED816009FA2B3 /* ViewController.swift */,
@@ -125,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E1BFE625EED81C009FA2B3 /* LaunchScreen.storyboard in Resources */,
+				4349175525F8175B004D69B3 /* BlueTableViewCell.xib in Resources */,
 				43E1BFE325EED81C009FA2B3 /* Assets.xcassets in Resources */,
 				43E1BFE125EED816009FA2B3 /* Main.storyboard in Resources */,
+				4349174E25F812CA004D69B3 /* GreenTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +178,8 @@
 				43E1BFDE25EED816009FA2B3 /* ViewController.swift in Sources */,
 				43E1BFDA25EED816009FA2B3 /* AppDelegate.swift in Sources */,
 				43E1BFDC25EED816009FA2B3 /* SceneDelegate.swift in Sources */,
+				4349174D25F812CA004D69B3 /* GreenTableViewCell.swift in Sources */,
+				4349175425F8175B004D69B3 /* BlueTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
